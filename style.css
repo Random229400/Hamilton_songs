@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6c049;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a8a7a7;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar li {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: #c6c4c4;
+    border-radius: 25px;
+}
