@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #a8a7a7;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#go-back {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.songslist div{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 20px 20px 20px;
+    align-items: center;
+    background-color: #a16526;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.songslist p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 49px;
+}
+
+.songslist audio::-webkit-media-controls-play-button:hover {
+    background-color: #cda140;
+    border-radius: 50%;
+}
+
+.songslist audio::-webkit-media-controls-panel {
+    background-color: #f6c049;
+}
+
